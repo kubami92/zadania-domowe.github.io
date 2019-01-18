@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#zdjecie1 {
+    background-image: url("../obrazy/man-1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+#zdjecie1 h1 {
+    margin: 0;
+    color: #fff;
+    padding-top: 50vh;
+    padding-left: 30px;
+}
+
+@media (min-width:993px) and (max-width:1170px) {
+
+    #zdjecie1 {
+        background-image: url("../obrazy/man-2.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 70vh;
+        background-position: center top;
+    }
+    
+    #zdjecie1 h1 {
+        padding-top: 100px;
+        padding-left: 60%;
+    }
+}
+
+@media (max-width:992px) {
+    
+    #zdjecie1 {
+        width: 100%;
+        height: 50vh;
+        background-position: center top;
+        background-size: cover;
+    }
+    
+        #zdjecie1 h1 {
+        color: black;
+        text-align: center;
+    }
+}
